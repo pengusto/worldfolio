@@ -1,0 +1,944 @@
+[
+  {
+    "path": "models/area/enter.png",
+    "bytes": 753,
+    "sha256": "f1a5f8deb92dc65d6b16d404cd849e6e8db16a1dc13d2efe3ebc578c174fe539",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/area/enter.png"
+  },
+  {
+    "path": "models/area/keyEnter.png",
+    "bytes": 703,
+    "sha256": "6653c47c61d96e8dbc54386f31a5aa26c17fa7e32bb8bf3b9eb8b5d2bceb5a6d",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/area/keyEnter.png"
+  },
+  {
+    "path": "models/area/open.png",
+    "bytes": 809,
+    "sha256": "c41bfc0af6e1a9f83385b2a207973c359500717e7cb116fbbb2d6addb4770b35",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/area/open.png"
+  },
+  {
+    "path": "models/area/questionMark.png",
+    "bytes": 512,
+    "sha256": "99add929bfc0d4015cad94b67ef60d44bed7b9e158ef29f20bb08101bcf52fd0",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/area/questionMark.png"
+  },
+  {
+    "path": "models/area/reset.png",
+    "bytes": 933,
+    "sha256": "2e5dd4c216c3c7cf1fe76ff0710ca5f957e5e27f848e42e853fa9b634a93bcbc",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/area/reset.png"
+  },
+  {
+    "path": "models/bowlingBall/base.glb",
+    "bytes": 3084,
+    "sha256": "3504980ee15cda0daf2198bc1083c2caecb3a1e0cd65b352ec3d7e489b3f1bbf",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/bowlingBall/base.glb"
+  },
+  {
+    "path": "models/bowlingBall/collision.glb",
+    "bytes": 4364,
+    "sha256": "a7f3be0eac0bebf380c7f2bd0d33c697d62d8dd4f002052502f0e11806f46293",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/bowlingBall/collision.glb"
+  },
+  {
+    "path": "models/bowlingPin/base.glb",
+    "bytes": 8044,
+    "sha256": "696213eb610f677d7e05f4db5f95d7ca57299f333cf89dc20e27683503043950",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/bowlingPin/base.glb"
+  },
+  {
+    "path": "models/bowlingPin/collision.glb",
+    "bytes": 1972,
+    "sha256": "a72dc9d025f4980442c04078db4917a903707306d2dcb19243ae356d0c5899d3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/bowlingPin/collision.glb"
+  },
+  {
+    "path": "models/brick/base.glb",
+    "bytes": 2888,
+    "sha256": "76dc992c75b511281d32f7426252cd93c05586c1a41dcbfe22d42ae2a760db8c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/brick/base.glb"
+  },
+  {
+    "path": "models/brick/collision.glb",
+    "bytes": 1112,
+    "sha256": "d6770d90515659f45aab2167fe1d82aaa8c5fa6315fc7b0ed0f76fef01b35a40",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/brick/collision.glb"
+  },
+  {
+    "path": "models/car/cyberTruck/antena.glb",
+    "bytes": 3536,
+    "sha256": "c59c22cca30ab5e8d4f83f2f748fe9ba90643703a47da3036a8300655aeab610",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/cyberTruck/antena.glb"
+  },
+  {
+    "path": "models/car/cyberTruck/backLightsBrake.glb",
+    "bytes": 1236,
+    "sha256": "6adb222e4fbacebe08a0101d473d0573154b855d1d8bdb568ff4b1f49260618f",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/cyberTruck/backLightsBrake.glb"
+  },
+  {
+    "path": "models/car/cyberTruck/backLightsReverse.glb",
+    "bytes": 1248,
+    "sha256": "4daf4530e1139200af908e556ff70a8deeb2511f3fd41030ab6ba5fb4313898d",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/cyberTruck/backLightsReverse.glb"
+  },
+  {
+    "path": "models/car/cyberTruck/chassis.glb",
+    "bytes": 8744,
+    "sha256": "490a495788c279553906cfa90b46cc108fe56e1cc34dba69f92780c49dff9fb3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/cyberTruck/chassis.glb"
+  },
+  {
+    "path": "models/car/cyberTruck/wheel.glb",
+    "bytes": 6600,
+    "sha256": "78e995a24183c8b4315f3b3f169e1f5776cfb0f75c9a0e444bc92f2b3ec83307",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/cyberTruck/wheel.glb"
+  },
+  {
+    "path": "models/car/default/antena.glb",
+    "bytes": 3736,
+    "sha256": "bd96c4d3a4d62e257b3f9079598c35c4caac8db037d7ebcf87036119949b89d0",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/default/antena.glb"
+  },
+  {
+    "path": "models/car/default/backLightsBrake.glb",
+    "bytes": 1464,
+    "sha256": "72c8bf5acce8a8af0a3a81adfeb7d4e7b25c3ba4f9b5702a1001286d113ece63",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/default/backLightsBrake.glb"
+  },
+  {
+    "path": "models/car/default/backLightsReverse.glb",
+    "bytes": 1460,
+    "sha256": "1ccab3718acadb432241d8e475ae95f90a8e0f0e29a5e67f36966f86baa1bbf0",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/default/backLightsReverse.glb"
+  },
+  {
+    "path": "models/car/default/chassis.glb",
+    "bytes": 32160,
+    "sha256": "b021cf810fd70a76835d2c49aaa7cbe777587ead8cd201cb83731e03a0f69fd9",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/default/chassis.glb"
+  },
+  {
+    "path": "models/car/default/wheel.glb",
+    "bytes": 6604,
+    "sha256": "7f9dc25bebfefba99a4d8c46b8c2245d487a61c7f1656c7988d4d02985e2eeb0",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/car/default/wheel.glb"
+  },
+  {
+    "path": "models/crossroads/static/base.glb",
+    "bytes": 631364,
+    "sha256": "7d54e0b218ff79a89e6e0dc86db7739f2b3d62e96f13db000693d9ad3c93bef1",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/crossroads/static/base.glb"
+  },
+  {
+    "path": "models/crossroads/static/collision.glb",
+    "bytes": 5944,
+    "sha256": "90d13905c3e31325a08aa55559460cebcfc80ceae436717a5d9e04cca9a2923f",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/crossroads/static/collision.glb"
+  },
+  {
+    "path": "models/crossroads/static/floorShadow.png",
+    "bytes": 26202,
+    "sha256": "d50f291318e0b0b75973f5326bca2eda9723f1a29042320c4e8d7a1d0834f6d7",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/crossroads/static/floorShadow.png"
+  },
+  {
+    "path": "models/horn/base.glb",
+    "bytes": 8304,
+    "sha256": "4a22728bc5a9ba2db858c401a1fb5d6fcd8df8b530f4a521cf774291a45264b8",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/horn/base.glb"
+  },
+  {
+    "path": "models/horn/collision.glb",
+    "bytes": 1956,
+    "sha256": "63bddd199f627ff86af2c62eb55f36ce71970e18afcf16e357099883dc760537",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/horn/collision.glb"
+  },
+  {
+    "path": "models/information/baguette/base.glb",
+    "bytes": 4792,
+    "sha256": "ec4d1ae6e58bfee31e080eef6b5e5d924bd0d08fbc9f1689f4e1de85c01f0b0c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/baguette/base.glb"
+  },
+  {
+    "path": "models/information/baguette/collision.glb",
+    "bytes": 1052,
+    "sha256": "ee2ee75942172c367c3993b08bbd251081c91fef137f831e5aa976df2253685b",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/baguette/collision.glb"
+  },
+  {
+    "path": "models/information/static/activities.png",
+    "bytes": 12721,
+    "sha256": "e6bdbfb57e06a6832591473d9297e421c273328418cd80a6fdb3c909827ac6d2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/activities.png"
+  },
+  {
+    "path": "models/information/static/base.glb",
+    "bytes": 57352,
+    "sha256": "35bb013c40647d43cac8fa99137496952c42ae5cfc8eaeb3bc1cdcf755c11d89",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/base.glb"
+  },
+  {
+    "path": "models/information/static/collision.glb",
+    "bytes": 6244,
+    "sha256": "918df17482a5a69acb5ecb4d90d0af3b33e64bafe6e3fb3d732b3ff3fa3830a9",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/collision.glb"
+  },
+  {
+    "path": "models/information/static/contactGithubLabel.png",
+    "bytes": 576,
+    "sha256": "05cb95f3c140db1c0cc15a7118d2e7f22f7aaf5e0637fbb3b02a63563fe6d621",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/contactGithubLabel.png"
+  },
+  {
+    "path": "models/information/static/contactLinkedinLabel.png",
+    "bytes": 629,
+    "sha256": "0273cb5fc9bc3f9e369e4f91025da3275e31e3897f328bf484c8734a1004bf52",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/contactLinkedinLabel.png"
+  },
+  {
+    "path": "models/information/static/contactMailLabel.png",
+    "bytes": 1689,
+    "sha256": "c51bb3bfdfcee86fc84ed73b8aa7840e0f210fca779c2f83a29bc20f11c1e4a3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/contactMailLabel.png"
+  },
+  {
+    "path": "models/information/static/contactTwitterLabel.png",
+    "bytes": 650,
+    "sha256": "2624e98a16b3ab6554da48bbaf5942111218c07a11fe21460b580e2fd982f02b",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/contactTwitterLabel.png"
+  },
+  {
+    "path": "models/information/static/floorShadow.png",
+    "bytes": 32733,
+    "sha256": "99df3cd0a363e746f9f135d6e4c1b1faf04065b52905ec1f8eedf77d291550bf",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/information/static/floorShadow.png"
+  },
+  {
+    "path": "models/intro/arrowKey/base.glb",
+    "bytes": 3220,
+    "sha256": "7a894c6a1356e4093834788fd7c0316ccdc4881a46da454aff19b3b334c6920a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/arrowKey/base.glb"
+  },
+  {
+    "path": "models/intro/arrowKey/collision.glb",
+    "bytes": 1208,
+    "sha256": "239bd890fd714240d4690d81c06ef0415c1242fa767d02f13e5e3eb39d064810",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/arrowKey/collision.glb"
+  },
+  {
+    "path": "models/intro/b/base.glb",
+    "bytes": 2452,
+    "sha256": "2d4812e5eb835aabaafeba044aaf90854a3274667218af4cd38c5a446ce657e3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/b/base.glb"
+  },
+  {
+    "path": "models/intro/b/collision.glb",
+    "bytes": 1200,
+    "sha256": "3ec201e7fc7e6d4b7081778d9f381c830bd28bcdaf01080d2e829b740668270c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/b/collision.glb"
+  },
+  {
+    "path": "models/intro/creative/base.glb",
+    "bytes": 4132,
+    "sha256": "ce10e5549975655c1c9b4aec409ac0ee93b9a0858e207cebb87d0971bbb1ee61",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/creative/base.glb"
+  },
+  {
+    "path": "models/intro/creative/collision.glb",
+    "bytes": 1200,
+    "sha256": "be5a44b00d0824997208bed011251d9cd257f26e6aab0f5bfefef1fc5808a695",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/creative/collision.glb"
+  },
+  {
+    "path": "models/intro/dev/base.glb",
+    "bytes": 2576,
+    "sha256": "a0f6c5db97ab51b8f85306d580a4c1dcc9ec29fdef7796b30d32df03132ddc6d",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/dev/base.glb"
+  },
+  {
+    "path": "models/intro/dev/collision.glb",
+    "bytes": 1256,
+    "sha256": "667051070f07b5090a13c06966681a70cd5a78e45026a796c18a59b9d8f948f9",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/dev/collision.glb"
+  },
+  {
+    "path": "models/intro/i/base.glb",
+    "bytes": 1304,
+    "sha256": "0e1449d35eec5d91c07effce5afcfd325ea1cb5efad0be298094fd88ff199b0a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/i/base.glb"
+  },
+  {
+    "path": "models/intro/i/collision.glb",
+    "bytes": 1200,
+    "sha256": "0cd6b2be248c68fad9e86c3e8d4c4ea2f4fa58688480ebe757af6ae13abbe58c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/i/collision.glb"
+  },
+  {
+    "path": "models/intro/instructions/arrows.png",
+    "bytes": 2918,
+    "sha256": "64f1fe95c42cf8de43e05254fa7afeee66d970fe05ae64262bd1de499cbb1e29",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/instructions/arrows.png"
+  },
+  {
+    "path": "models/intro/instructions/controls.png",
+    "bytes": 2756,
+    "sha256": "d13d237b2b21ce96b5d377235f7daac86a03c3ead9bdf0e352210589905e3515",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/instructions/controls.png"
+  },
+  {
+    "path": "models/intro/instructions/labels.glb",
+    "bytes": 900,
+    "sha256": "dde7eda4dedf971227261b457a1879c4fe160eb173f581c51179855cd5b0fae9",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/instructions/labels.glb"
+  },
+  {
+    "path": "models/intro/instructions/other.png",
+    "bytes": 6279,
+    "sha256": "fdb5a96de47c76f5481dfe167519dcf427d26f5c4f57297968e3ec7c0b58668d",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/instructions/other.png"
+  },
+  {
+    "path": "models/intro/m/base.glb",
+    "bytes": 1608,
+    "sha256": "f14547894f4319b73c1907bb67218fa8d78a6162d59af0f5a6571a04f03b4015",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/m/base.glb"
+  },
+  {
+    "path": "models/intro/m/collision.glb",
+    "bytes": 1196,
+    "sha256": "fb232f6d81f303273c3d460f5c59a9be42e21f7fff94d733b52d3d6acd5314b4",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/m/collision.glb"
+  },
+  {
+    "path": "models/intro/n/base.glb",
+    "bytes": 1504,
+    "sha256": "b4c1ffb0075b722fadb0c98f44b7d2d5712fd6ec42d47cf342343a177bd1c3f1",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/n/base.glb"
+  },
+  {
+    "path": "models/intro/n/collision.glb",
+    "bytes": 1200,
+    "sha256": "3ca0c46a683ba5421591a7b3eee80b2454562fe9dc183e5d5aec8db617c0406e",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/n/collision.glb"
+  },
+  {
+    "path": "models/intro/o/base.glb",
+    "bytes": 2260,
+    "sha256": "4f2f8a7eecbb8484fdd4a5991900abd070aeb531ee33065ca9bffb109e2c4dd6",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/o/base.glb"
+  },
+  {
+    "path": "models/intro/o/collision.glb",
+    "bytes": 1200,
+    "sha256": "7514128f5e5c496619a84db7d69db7aa9cc98c8fe35ea26ae5a1ea37247ad6c3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/o/collision.glb"
+  },
+  {
+    "path": "models/intro/r/base.glb",
+    "bytes": 1976,
+    "sha256": "e8a4aee73b3a003dcc022daee3a21de97531de079253ce0a9f2c3f154ac7e691",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/r/base.glb"
+  },
+  {
+    "path": "models/intro/r/collision.glb",
+    "bytes": 1200,
+    "sha256": "239e26c46fccdbddeff1e873ed01b5537e8d37fbc7ceb95310c5b77f10220395",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/r/collision.glb"
+  },
+  {
+    "path": "models/intro/s/base.glb",
+    "bytes": 2532,
+    "sha256": "3bf1838bd6c93d07a7973535804d62507c0a6f6b8ea28f98f07fcd198ce478a2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/s/base.glb"
+  },
+  {
+    "path": "models/intro/s/collision.glb",
+    "bytes": 1200,
+    "sha256": "be9cd553a00efd8d438ee90e1d0e0c05e618cb40d3610a88c7d5879789e084d2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/s/collision.glb"
+  },
+  {
+    "path": "models/intro/static/base.glb",
+    "bytes": 39524,
+    "sha256": "ecaff7114650a65f5cf5eb7c3de5d7b46d11e1167e4ec372e73027eec5a8124e",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/static/base.glb"
+  },
+  {
+    "path": "models/intro/static/collision.glb",
+    "bytes": 7396,
+    "sha256": "c993f6c683062dd80e27f135f2348afd7f4477ebdb762e9d82e0a618ca560fc5",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/static/collision.glb"
+  },
+  {
+    "path": "models/intro/static/floorShadow.png",
+    "bytes": 24919,
+    "sha256": "8955520b867c9c1d350701f09cf46c7a77a78af059b6740efd2475afd1769ea9",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/static/floorShadow.png"
+  },
+  {
+    "path": "models/intro/u/base.glb",
+    "bytes": 1900,
+    "sha256": "e12ba40c9025219ad67a1f0c6cd5d0da605d61044982d587d91538c6b0b3dfdb",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/u/base.glb"
+  },
+  {
+    "path": "models/intro/u/collision.glb",
+    "bytes": 1200,
+    "sha256": "e8081bfbefe1a1e1dde926614c4029af49d0ca92dba03fa31aaf985e9cff663f",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/intro/u/collision.glb"
+  },
+  {
+    "path": "models/konami/label-touch.png",
+    "bytes": 578,
+    "sha256": "5dbb69740133f9e228ba62b4da7ab2607717fccab2327a3008ea8fc08f68cb0a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/konami/label-touch.png"
+  },
+  {
+    "path": "models/konami/label.png",
+    "bytes": 957,
+    "sha256": "71f4f2390d0a848e3f0c9f7a11ccc6fedab6bdc6c7fcd3b9f43b022ca330063c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/konami/label.png"
+  },
+  {
+    "path": "models/lemon/base.glb",
+    "bytes": 7432,
+    "sha256": "fe517e4b6ecb65d7f60cb0ddafa1f43011490538fb147500d439a7321dae3586",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/lemon/base.glb"
+  },
+  {
+    "path": "models/lemon/collision.glb",
+    "bytes": 1740,
+    "sha256": "1f6855ad2ed78969115804713861ece8d40fd7d3b7cfc036c79ec7924f123c69",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/lemon/collision.glb"
+  },
+  {
+    "path": "models/matcaps/beige.png",
+    "bytes": 5269,
+    "sha256": "8121e9c0dcaf36ef533b89b47d4a7037b4fd411b6a08d0d74d30876482771893",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/beige.png"
+  },
+  {
+    "path": "models/matcaps/black.png",
+    "bytes": 5174,
+    "sha256": "e8d7b51502974fe4d48ed1ed4035ad1f31f4066b3f8a73acaa09f455da1b9527",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/black.png"
+  },
+  {
+    "path": "models/matcaps/blue.png",
+    "bytes": 5088,
+    "sha256": "1b6b2fc51cbe9aa837f33e53bb8d6c42a777c9522622d5c77c5c429a4c618c8f",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/blue.png"
+  },
+  {
+    "path": "models/matcaps/brown.png",
+    "bytes": 5150,
+    "sha256": "2c37f8b8c09a0c28ee6c8f0498bdc5605189a18b97b24a9a94e3fda21ddd8b51",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/brown.png"
+  },
+  {
+    "path": "models/matcaps/emeraldGreen.png",
+    "bytes": 5240,
+    "sha256": "25072a889fe6e28e93032508a75b110df2084371a41fa5bd2c0e938fe8102af3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/emeraldGreen.png"
+  },
+  {
+    "path": "models/matcaps/gray.png",
+    "bytes": 5053,
+    "sha256": "817aef5b9e4911303f842f8ca3109df2a0545908d8b6cfcd6e005974b101c291",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/gray.png"
+  },
+  {
+    "path": "models/matcaps/green.png",
+    "bytes": 5232,
+    "sha256": "4c4c3f674fbfbabfa70b064195bad08dde4575e4e573823be6220b880fd085f8",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/green.png"
+  },
+  {
+    "path": "models/matcaps/metal.png",
+    "bytes": 24690,
+    "sha256": "e28b3ed108ddb4d50e180cbed2db1a249b00f39eb304f9456843a5ed68bd662a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/metal.png"
+  },
+  {
+    "path": "models/matcaps/orange.png",
+    "bytes": 5402,
+    "sha256": "fb34f224ad29006d7f52e318be9e268c717e628a2e9396e5f931dc1750e326e6",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/orange.png"
+  },
+  {
+    "path": "models/matcaps/purple.png",
+    "bytes": 5055,
+    "sha256": "f4781d8c62440f65999f40e13a0fa7ddd64896afda703077316c542e85c64b36",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/purple.png"
+  },
+  {
+    "path": "models/matcaps/red.png",
+    "bytes": 5079,
+    "sha256": "ff643615e80bd5c9377ffd3a1c763bf4201672752ed8f9fa55c32d5b3f530b85",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/red.png"
+  },
+  {
+    "path": "models/matcaps/white.png",
+    "bytes": 5152,
+    "sha256": "e347e7e572173ce158f7a90b4a6282fa7d415fb8485787e380800eab65edf5ce",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/white.png"
+  },
+  {
+    "path": "models/matcaps/yellow.png",
+    "bytes": 4938,
+    "sha256": "20eeafd6262d16ee388e40ee39c72244978185a3889f09f4f6443db87c1ebe13",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/matcaps/yellow.png"
+  },
+  {
+    "path": "models/playground/static/base.glb",
+    "bytes": 162072,
+    "sha256": "356e22903d3f58f78718f204df4b5d6fae179eba58719469f404d174bdca1268",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/playground/static/base.glb"
+  },
+  {
+    "path": "models/playground/static/collision.glb",
+    "bytes": 8300,
+    "sha256": "e49bc4449794b3fea6ede39a06b17b87056f1f1a1ec7bd0769311eeca6447ae3",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/playground/static/collision.glb"
+  },
+  {
+    "path": "models/playground/static/floorShadow.png",
+    "bytes": 28626,
+    "sha256": "bef033c21bc2ce79616d5e21ec611afa762101be5dd89fef4b1149d0f23aa89c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/playground/static/floorShadow.png"
+  },
+  {
+    "path": "models/projects/board/collision.glb",
+    "bytes": 1616,
+    "sha256": "e1ddb325d8071f5b49455e671f7bf5d69d035755bd0e5e6dc655dce4855798fa",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/board/collision.glb"
+  },
+  {
+    "path": "models/projects/board/floorShadow.png",
+    "bytes": 4046,
+    "sha256": "410d4fd55df9a2eae5ca9016f4f8b68b7b472171ae445a944322df96cca3ed93",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/board/floorShadow.png"
+  },
+  {
+    "path": "models/projects/board/plane.glb",
+    "bytes": 1268,
+    "sha256": "de80bf8e5068c0d3bcfbed8266053005ff9d69d918b2534f5c6ec703766ae279",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/board/plane.glb"
+  },
+  {
+    "path": "models/projects/board/structure.glb",
+    "bytes": 5748,
+    "sha256": "6f2df84c48af9c37d0c505d6c008036c6c6a4a10d37f2d241c9c49c111d7625a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/board/structure.glb"
+  },
+  {
+    "path": "models/projects/bonhomme10ans/floorTexture.webp",
+    "bytes": 45862,
+    "sha256": "bff651d6595b9a2e4bc2ef1d807e199d0a58dd657e030b4631b6d74a8f3c7008",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/bonhomme10ans/floorTexture.webp"
+  },
+  {
+    "path": "models/projects/chartogne/floorTexture.png",
+    "bytes": 33979,
+    "sha256": "61cb94e6cadc657aa9f9d257e203cf119f284c2fb191dfd065b40158340f7633",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/chartogne/floorTexture.png"
+  },
+  {
+    "path": "models/projects/citrixRedbull/floorTexture.png",
+    "bytes": 39079,
+    "sha256": "3cdd5966dc5fadef1dea07566a8ed8d786fe434e93a1133dcd81d99d41dc92d8",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/citrixRedbull/floorTexture.png"
+  },
+  {
+    "path": "models/projects/distinctions/awwwards/base.glb",
+    "bytes": 11800,
+    "sha256": "a58d09f12094a108ec00e80ea4630ed4186abb3877580c592a0eb9f05a2a0e75",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/awwwards/base.glb"
+  },
+  {
+    "path": "models/projects/distinctions/awwwards/collision.glb",
+    "bytes": 2640,
+    "sha256": "1ee15a0df89ec309b9e10b38655b1914c8a6636cdd637fb049726ed866830857",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/awwwards/collision.glb"
+  },
+  {
+    "path": "models/projects/distinctions/cssda/base.glb",
+    "bytes": 5304,
+    "sha256": "c4db4f511734019d988cc6d8e92fff4272a29cb35a023d7a5d12495868438f53",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/cssda/base.glb"
+  },
+  {
+    "path": "models/projects/distinctions/cssda/collision.glb",
+    "bytes": 2708,
+    "sha256": "280c97e32f9326c59255a748a3fb1a21712f6e507627e7b2389176f5b7e39f58",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/cssda/collision.glb"
+  },
+  {
+    "path": "models/projects/distinctions/fwa/base.glb",
+    "bytes": 23844,
+    "sha256": "ac8cf42a0efe684a75cfba54e88570dc61f7614bf8601825d9877c8d66e92c00",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/fwa/base.glb"
+  },
+  {
+    "path": "models/projects/distinctions/fwa/collision.glb",
+    "bytes": 1208,
+    "sha256": "052936c0ddaa1ee9a623b2bce11857f6ef9d6f827d9e1a9697ad9e3b2a1b4435",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/distinctions/fwa/collision.glb"
+  },
+  {
+    "path": "models/projects/luni/floorTexture.webp",
+    "bytes": 45822,
+    "sha256": "45873e97b43a322ffb4427b22fb7c60d1b562976790a0759400835774f26c03e",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/luni/floorTexture.webp"
+  },
+  {
+    "path": "models/projects/madbox/floorTexture.png",
+    "bytes": 35760,
+    "sha256": "a1dc5ec916e3e5a5690744858b4b4fda09e48fb448f2dccc1863dc4d466b6e53",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/madbox/floorTexture.png"
+  },
+  {
+    "path": "models/projects/orano/floorTexture.png",
+    "bytes": 28574,
+    "sha256": "0b9dd930227e1c44ac003d84b4653dd1cb63f33b4173852dce34557f13764bda",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/orano/floorTexture.png"
+  },
+  {
+    "path": "models/projects/priorHoldings/floorTexture.png",
+    "bytes": 29103,
+    "sha256": "f2654945548d49bfbc1893ce2f5bd8a6f0b8a12cd00a1a1e3c0937b37d06ff90",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/priorHoldings/floorTexture.png"
+  },
+  {
+    "path": "models/projects/scout/floorTexture.png",
+    "bytes": 19770,
+    "sha256": "0ce2f2effffbe1cd7d6e4be01051f4ab6a4c45c537560478106470aba93e5580",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/scout/floorTexture.png"
+  },
+  {
+    "path": "models/projects/threejsJourney/floorTexture.webp",
+    "bytes": 49578,
+    "sha256": "f0ad9a9b0306cc821510cb746806a50b70bd61c33576947c051d0d9d37ee54b0",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/projects/threejsJourney/floorTexture.webp"
+  },
+  {
+    "path": "models/tiles/a/base.glb",
+    "bytes": 1460,
+    "sha256": "61eea99d0d3b618677ffd904eae0852dd13556ea9d24012c29782e2297c386ad",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/a/base.glb"
+  },
+  {
+    "path": "models/tiles/a/collision.glb",
+    "bytes": 1072,
+    "sha256": "a80debf691565e03b902a05b92e8f593bdac7a2c50addba2acc6ac3aa2b47de2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/a/collision.glb"
+  },
+  {
+    "path": "models/tiles/b/base.glb",
+    "bytes": 2420,
+    "sha256": "a77ac271de870f148297c51b5d202d61d468fcbcc72f269d27c19d777f562f73",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/b/base.glb"
+  },
+  {
+    "path": "models/tiles/b/collision.glb",
+    "bytes": 1112,
+    "sha256": "e856b6b4a87401990847f40ed85b873b6d6482866526e9f193099fdf7aa6c958",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/b/collision.glb"
+  },
+  {
+    "path": "models/tiles/c/base.glb",
+    "bytes": 1624,
+    "sha256": "7cbee42c938189bd96d4be13e2fb6837b3a405a10c7f9abd3eaf2fa2fbb6c9ea",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/c/base.glb"
+  },
+  {
+    "path": "models/tiles/c/collision.glb",
+    "bytes": 1072,
+    "sha256": "083f849fdf750842cafee758d2568cebf5afe7f049c195661d7657df0bc12fa2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/c/collision.glb"
+  },
+  {
+    "path": "models/tiles/d/base.glb",
+    "bytes": 1600,
+    "sha256": "2e10d7467aa9f93d2e877fe27f0c42f7635240a1f0f87e18d0ac015c5a5b42d7",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/d/base.glb"
+  },
+  {
+    "path": "models/tiles/d/collision.glb",
+    "bytes": 1212,
+    "sha256": "a5fcae28ae903baeae0b8598b79cef63fb8eff883770b821d7702e6ea1665b2b",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/d/collision.glb"
+  },
+  {
+    "path": "models/tiles/e/base.glb",
+    "bytes": 2044,
+    "sha256": "0a1704df4ea7c49b5a921d7a5dbf37e49cb3386e2e6dbf3f934442314062f158",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/e/base.glb"
+  },
+  {
+    "path": "models/tiles/e/collision.glb",
+    "bytes": 1072,
+    "sha256": "de60f629e727d482d3aa451304de54d1fc78c38cc8a06ae6c1e2857888a99c44",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/tiles/e/collision.glb"
+  },
+  {
+    "path": "models/webbyTrophy/base.glb",
+    "bytes": 174640,
+    "sha256": "8b4e38f9ed670831cd346f6ac7a00bf48af8f42305222140ca08d125e5f8bacd",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/webbyTrophy/base.glb"
+  },
+  {
+    "path": "models/webbyTrophy/collision.glb",
+    "bytes": 2356,
+    "sha256": "2636a780225e0875f5ea27d59f9a9a14b1736192fd96ddf934abd8191eb224bb",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/webbyTrophy/collision.glb"
+  },
+  {
+    "path": "models/wigs/wig1.glb",
+    "bytes": 2868,
+    "sha256": "68912d722cf58eb6e6f6d5051797c0d626bff6d902b2d8951fc186a6022c9723",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/wigs/wig1.glb"
+  },
+  {
+    "path": "models/wigs/wig2.glb",
+    "bytes": 9424,
+    "sha256": "50ac1584bcd411f607908a07cc8db415dbfc6a11e9478a21e5df98a816d8a99f",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/wigs/wig2.glb"
+  },
+  {
+    "path": "models/wigs/wig3.glb",
+    "bytes": 12536,
+    "sha256": "fee9672143cacc9048333442b00c4ffae21a89bf838eac277c22f56ea8cc1438",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/wigs/wig3.glb"
+  },
+  {
+    "path": "models/wigs/wig4.glb",
+    "bytes": 38980,
+    "sha256": "91f949137c30298d9fe4e891be9b2050a89c2d2ca627a6d17f6cc5aac1b08d59",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/models/wigs/wig4.glb"
+  },
+  {
+    "path": "sounds/bowling/pin-1.mp3",
+    "bytes": 3425,
+    "sha256": "681a730257b74b7326ff29b81e7c9a37a5611b6ec4485339c2f7113aa2fb3b36",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bowling/pin-1.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-1.mp3",
+    "bytes": 4653,
+    "sha256": "9f1ae9904aebf592e6081b4e22f27eeaf1646ae0d0da18937e0504304b5633b4",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-1.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-2.mp3",
+    "bytes": 3885,
+    "sha256": "dac68136fed6c3a655050573a8b28f1c35f2570d52552310e04958ff1826e357",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-2.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-4.mp3",
+    "bytes": 3117,
+    "sha256": "3f3d232e734ee860e0cc42ce1eb96c38a50a4a2374b5b5449d248448c0127e1d",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-4.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-6.mp3",
+    "bytes": 5805,
+    "sha256": "ef5541bc24539920c197ca3caae529a57aa3fdb0ed91bb586bbb8286c03596e8",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-6.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-7.mp3",
+    "bytes": 7725,
+    "sha256": "fd5a2c285763a8c1cbb3cefbf5c152c031e1b08be4f42c23e308c14b816b5406",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-7.mp3"
+  },
+  {
+    "path": "sounds/bricks/brick-8.mp3",
+    "bytes": 8493,
+    "sha256": "52a772d9a41cda592d4e8a6cdf3bdd39bf16cebccf2fbca252db638acd04bfaa",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/bricks/brick-8.mp3"
+  },
+  {
+    "path": "sounds/car-hits/car-hit-1.mp3",
+    "bytes": 4641,
+    "sha256": "679fd9a9b72d16d506eb0a1d758042b90e1fafdb11a5521ce1044ff070281bd6",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-hits/car-hit-1.mp3"
+  },
+  {
+    "path": "sounds/car-hits/car-hit-3.mp3",
+    "bytes": 4223,
+    "sha256": "1f2a09be8f2f6c900771d00dceff2fda36fd42e292d6fb77dd36f33317c3cf2a",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-hits/car-hit-3.mp3"
+  },
+  {
+    "path": "sounds/car-hits/car-hit-4.mp3",
+    "bytes": 2551,
+    "sha256": "27f68daaa945f6bda49a857eb5b9192da746c80e164d4e0d93742e96105a0221",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-hits/car-hit-4.mp3"
+  },
+  {
+    "path": "sounds/car-hits/car-hit-5.mp3",
+    "bytes": 1715,
+    "sha256": "ee76f1aeca0ace58ffcb7299718d5d776f6c856477c5e7b82e76db94001f7ada",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-hits/car-hit-5.mp3"
+  },
+  {
+    "path": "sounds/car-horns/car-horn-1.mp3",
+    "bytes": 3501,
+    "sha256": "946f3a0c4a9a873679dfe31ade19b8e08789d384913a25b40f42842f5e97c222",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-horns/car-horn-1.mp3"
+  },
+  {
+    "path": "sounds/car-horns/car-horn-2.mp3",
+    "bytes": 24109,
+    "sha256": "af6603d10a3bf38be3cce75ad32d5d6a49bc1f7c966f29a2acec00f30416a29c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/car-horns/car-horn-2.mp3"
+  },
+  {
+    "path": "sounds/engines/1/low_off.mp3",
+    "bytes": 9657,
+    "sha256": "5d71289cf66e5c33ff172895cfbfbb5741a1acfb0cc2e8afa536ca393c8f5c85",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/engines/1/low_off.mp3"
+  },
+  {
+    "path": "sounds/horns/horn-1.mp3",
+    "bytes": 1581,
+    "sha256": "d84dc18519bca188c2a133afc6e74960823ac971604772f9e37e1052fb19ef30",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/horns/horn-1.mp3"
+  },
+  {
+    "path": "sounds/horns/horn-2.mp3",
+    "bytes": 1581,
+    "sha256": "7d1d2c489d86cc6f7b7f2b7a39eb9c2461515c32eb805fd10f1ffddc9e5d9d96",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/horns/horn-2.mp3"
+  },
+  {
+    "path": "sounds/horns/horn-3.mp3",
+    "bytes": 1581,
+    "sha256": "e99fbb1f477a453a25e2de37b3554780e1176f2ac5fb2fc501700b98461ba710",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/horns/horn-3.mp3"
+  },
+  {
+    "path": "sounds/reveal/reveal-1.mp3",
+    "bytes": 23736,
+    "sha256": "41e840fd3577a2435d29ddff0a74252763f8779b6941ccaa2394df99117f1314",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/reveal/reveal-1.mp3"
+  },
+  {
+    "path": "sounds/screeches/screech-1.mp3",
+    "bytes": 6335,
+    "sha256": "0fcb5cdf44f881331d07e50a1d0d8b33b0273a8090000aed143efa0503c6541c",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/screeches/screech-1.mp3"
+  },
+  {
+    "path": "sounds/ui/area-1.mp3",
+    "bytes": 19651,
+    "sha256": "1f95d080217fdfd2989b7af01ce2383af0c4dd2fff1ecef853686113aa88fbb2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/ui/area-1.mp3"
+  },
+  {
+    "path": "sounds/wood-hits/wood-hit-1.mp3",
+    "bytes": 1197,
+    "sha256": "2d8164db6970911d678c9d69d89e96a2979f43a28d8b50987b0a18f2cca03396",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/sounds/wood-hits/wood-hit-1.mp3"
+  },
+  {
+    "path": "LICENSE.md",
+    "bytes": 1068,
+    "sha256": "0133eb833e8aea283bba994898c7c696b41f325926800fc5ec81ae40caee8156",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/LICENSE.md"
+  },
+  {
+    "path": "SOURCE.md",
+    "bytes": 1115,
+    "sha256": "cd3afd997a278ca30a9acaa006b2d7b15840aad346411b3650844b8cdd865849",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/SOURCE.md"
+  },
+  {
+    "path": "assets/apple-touch-icon-CIlLnb_v.png",
+    "bytes": 2716,
+    "sha256": "a370919e14de69afec52f062063a277ca7c881446d3e995ded50130d847d2413",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/apple-touch-icon-CIlLnb_v.png"
+  },
+  {
+    "path": "assets/boyHiBody-DHJ5Gzs3.png",
+    "bytes": 6374,
+    "sha256": "c497c9c0bdc8084fd288f86a162d23850afc81bec126a83579b3b39d59990ba2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/boyHiBody-DHJ5Gzs3.png"
+  },
+  {
+    "path": "assets/boyShrugging-B0epdl_S.png",
+    "bytes": 7099,
+    "sha256": "3d32c086561679ee2fc8d5d4a5413808b74cb55d35956d395941ab6a8113a717",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/boyShrugging-B0epdl_S.png"
+  },
+  {
+    "path": "assets/boyYay-DyYK-NEy.png",
+    "bytes": 6704,
+    "sha256": "bb110da992c0e1a8c152f9d81868e6ee42326828eb4b8ecf84dc0ec9a822f736",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/boyYay-DyYK-NEy.png"
+  },
+  {
+    "path": "assets/favicon-16x16-C81ERgtm.png",
+    "bytes": 513,
+    "sha256": "4662f4bf536ed351486ae40501c36ec4eb8265019e5dafc9e7aa6fee98638592",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/favicon-16x16-C81ERgtm.png"
+  },
+  {
+    "path": "assets/favicon-32x32-CCwrqtyj.png",
+    "bytes": 819,
+    "sha256": "26be50fe9a83582e7b9dac68171102542a55164eeeabde45e1969cea2e71e674",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/favicon-32x32-CCwrqtyj.png"
+  },
+  {
+    "path": "assets/index-DrdinLIH.css",
+    "bytes": 11217,
+    "sha256": "bd7b6926f6eae7302a0693c15cb243379a16e333a64b0a4177c974a92b49c1ff",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/index-DrdinLIH.css"
+  },
+  {
+    "path": "assets/site-BlrU7PgI.webmanifest",
+    "bytes": 464,
+    "sha256": "283bd0223948aa0daee0db4dc825b5cb1f8e82c9d8b2df71dc1305c0f58a65db",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/site-BlrU7PgI.webmanifest"
+  },
+  {
+    "path": "draco/draco_decoder.js",
+    "bytes": 719410,
+    "sha256": "30e4d486fa020737af10e3c56197693e5b904bdc05b8bfa5d7b06751dec6da04",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/draco/draco_decoder.js"
+  },
+  {
+    "path": "draco/draco_decoder.wasm",
+    "bytes": 285747,
+    "sha256": "c55a594e8ffd18426d36b27fea9618af3df5e173640a3e56d46f09d76f0574f2",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/draco/draco_decoder.wasm"
+  },
+  {
+    "path": "draco/draco_wasm_wrapper.js",
+    "bytes": 58763,
+    "sha256": "e8049906ef3f8f75d3456c22a3f31bfdfe5b5b5bd09ccdec613b9e9a49d554d8",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/draco/draco_wasm_wrapper.js"
+  },
+  {
+    "path": "assets/index-B3T5AeNX.js",
+    "bytes": 1142224,
+    "sha256": "2ee4d72d159734bc53bcf2fa03f26cd595eeed8d60012b7390ba137557abbc57",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/index-B3T5AeNX.js"
+  },
+  {
+    "path": "assets/index-DrdinLIH.css",
+    "bytes": 11217,
+    "sha256": "bd7b6926f6eae7302a0693c15cb243379a16e333a64b0a4177c974a92b49c1ff",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/assets/index-DrdinLIH.css"
+  },
+  {
+    "path": "profile-safety.js",
+    "bytes": 698,
+    "sha256": "668d15f6fa9034aa2572c2f02ec505d75644cb75f5898a8a5a7a9ca01fdf1aff",
+    "origin": "https://www.gitskins.com/portfolio-templates/folio-2019/profile-safety.js"
+  }
+]
