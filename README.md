@@ -1,5 +1,7 @@
 # Pengusto Worldfolio
 
+<a href="https://pengusto.github.io/worldfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/assets/worldfolio-banner-dark-v1.png"><source media="(prefers-color-scheme: light)" srcset="docs/assets/worldfolio-banner-light-v1.png"><img src="docs/assets/worldfolio-banner-light-v1.png" width="1200" alt="Worldfolio — Pengusto’s penguin drives an orange rover between project destinations. Open the interactive portfolio."></picture></a>
+
 [Open the portfolio](https://pengusto.github.io/worldfolio/) · [GitHub profile](https://github.com/pengusto)
 
 An independently hosted version of Bruno SIMON’s MIT-licensed Folio 2019, personalized through the recovered GitSkins adapter. The scene, geometry, materials, vehicle tuning, controls and eight-repository profile snapshot are retained. The original runtime displays the first six repositories as destinations. Creator attribution remains visible in the world and the original notices are included.
