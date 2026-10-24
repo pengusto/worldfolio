@@ -1,0 +1,14 @@
+{
+  "name": "Pengusto \u00b7 Worldfolio",
+  "short_name": "Pengusto",
+  "icons": [
+    {
+      "src": "apple-touch-icon-CIlLnb_v.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

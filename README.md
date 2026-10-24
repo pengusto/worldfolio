@@ -1,38 +1,42 @@
 # Pengusto Worldfolio
 
-[Open the interactive portfolio](https://pengusto.github.io/worldfolio/) · [GitHub profile](https://github.com/pengusto)
+[Open the portfolio](https://pengusto.github.io/worldfolio/) · [GitHub profile](https://github.com/pengusto)
 
-This is the actual built Worldfolio runtime served by GitSkins, personalized with the public Pengusto data embedded in the owner-supplied Portfolio OS ZIP. It is not the earlier custom island prototype and not an official downloaded Worldfolio ZIP.
+An independently hosted version of Bruno SIMON’s MIT-licensed Folio 2019, personalized through the recovered GitSkins adapter. The scene, geometry, materials, vehicle tuning, controls and eight-repository profile snapshot are retained. The original runtime displays the first six repositories as destinations. Creator attribution remains visible in the world and the original notices are included.
 
-The official Worldfolio manifest returned HTTP 503 on 24 October 2026 with `The Folio 2019 export assets are temporarily unavailable.` The public template assets were available. They were downloaded without credentials or access-control changes and verified locally.
+## Develop and build
 
-## Run
-
-From this folder:
+Use Node.js 22.12 or newer and npm. The upstream npm workflow is retained; exact versions and the complete dependency graph are recorded in `package.json` and `package-lock.json`.
 
 ```sh
-python3 -m http.server 5181 --bind 127.0.0.1
+npm ci --ignore-scripts
+npm run dev
+npm run check
+npm run build
+npm test
+npm run test:e2e
 ```
 
-Open <http://127.0.0.1:5181/?username=pengusto>, click **START**, and drive with the arrow keys or WASD. Press Enter near a project board. The **Details** button opens the profile HUD. A static server is required; opening `index.html` as a local file is insufficient.
+On a local Mac, browser tests use installed Google Chrome. In CI they use the pinned Playwright Chromium installation. Pixel comparisons run locally on the same platform as the original screenshots; hosted CI runs the driving, interaction and touch checks. `npm run check` checks JavaScript syntax; this is a JavaScript project without a separate TypeScript type-check stage.
 
-## Self-host
+`npm run preview -- --port 5184` serves the production build locally. Click **START**, then use arrow keys / WASD to drive, Shift for boost, Space / Ctrl to brake, R to reset, and Enter near a project board. Touch controls remain available on mobile.
 
-Upload this entire folder to a static host. There is no build step, GitSkins API requirement, backend or bearer token. Keep the directory structure, `profile-data.js`, licenses and visible creator credit. The working runtime includes local geometry, sounds, Draco decoder, avatar and Comic Neue font.
+## Dependency update
 
-GitHub Pages serves the repository root from the `main` branch at <https://pengusto.github.io/worldfolio/>. `.nojekyll` keeps the already-built files intact. Publish changes by committing the updated static files to `main`; there is no package installation or compile step.
+The source now imports Three.js **0.186.1**, GSAP **3.15.0**, Cannon **0.6.2**, dat.gui **0.7.9** and Howler **2.2.4**. The latter three are still their latest published npm versions; their engines were not substituted. Vite **8.3.5** builds the site. Three’s current loaders, controls, geometry utilities, postprocessing and Draco decoder assets come from the same pinned release.
 
-The bundle and model files are unmodified. Local changes are limited to embedding the supplied profile through the runtime's existing `window.gitskinsFolioData` interface, defaulting the URL username to `pengusto`, keeping the visible Bruno SIMON attribution, and serving the avatar and font locally. This follows the same profile-injection mechanism found in GitSkins' public export implementation.
+The original deployment was a compiled r164 bundle. The application source was recovered from that exact bundle, its top-level components given readable names, and its bundled library implementations replaced by package imports. It was first rebuilt against the original library versions and compared with the released site before upgrading. This retains the GitSkins-specific board/profile adaptation rather than substituting the unmodified Bruno Simon site or an approximation. [Migration and verification details](docs/modernization.md).
 
-The stored profile contains eight repositories; the unchanged Worldfolio runtime renders the first six as project destinations. The statistics are an export-time snapshot. It is not a live GitHub feed.
+## Hosting and updates
 
-## Provenance and maintenance
+GitHub Pages uses the **GitHub Actions** publishing source. `.github/workflows/deploy.yml` installs from the lockfile, builds, verifies original asset hashes/notices, tests driving and touch, and uploads only `dist/`. The deploy job runs only for `main` after all build checks pass. A failed build/test leaves the last successful deployment online. The modernization branch builds and tests without deploying.
 
-- `SOURCE.md` and `LICENSE.md`: notices supplied with GitSkins' public runtime.
-- `RECOVERY-MANIFEST.json`: origin URLs, sizes and SHA-256 checksums for recovered template files.
-- `profile.json`: local reference data; the runtime uses the copy embedded in `profile-data.js`.
-- `fonts/OFL.txt`: license for the local Comic Neue font.
+For another static host, upload the contents of `dist/`, keeping its structure. Relative asset paths support the existing `/worldfolio/` Pages URL. Visitors require no Node server, GitSkins API, live GitHub API, token or remote font service. Generated full license notices are included under `dist/licenses/`.
 
-After editing `profile.json`, update the data assignment in `profile-data.js` as well. Preserve the URL-default setup before that assignment. No credential is needed to serve the site.
+Edit **`profile.json`** and rebuild to update public profile/project information. It is embedded by `src/profile.js`; there is no second data file to synchronize. The avatar is local. The unused GitSkins service fallback and browser-wide image-source monkeypatch were removed. The same safe original-project-texture replacement is now explicit in the resource loader.
 
-This is a faithful runtime recovery, not an accessibility or performance redesign. The original runtime's continuous animation, full-scene rendering and initial 3D start screen remain. A complete non-WebGL/reduced-motion fallback and physical iOS/Safari acceptance have not been added or certified.
+## Provenance and limits
+
+`SOURCE.md`, `LICENSE.md`, `RECOVERY-MANIFEST.json` and `fonts/OFL.txt` (under `public/`) retain attribution, origin information and the original downloaded asset hashes. The recovery manifest describes the pre-modernization archive; it is not a manifest of the current built filenames. The original deployment remains in Git history at `fc0c594` for comparison and rollback.
+
+The existing continuous 3D rendering, start screen and mobile layout are retained. This update does not introduce a full non-WebGL or reduced-motion alternative for the interactive world. Physical iOS/Safari acceptance remains a manual check. The profile README keeps its own GIF and reduced-motion poster, with the same portfolio URL.

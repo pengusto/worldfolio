@@ -13,3 +13,7 @@ GitSkins preserves the original interactive world, car controls, project-board i
 The runtime does not include the source owner's analytics, tutorial links, personal branding, or project data. The original MIT license and attribution remain included.
 
 The generated runtime is served from this directory so nested template paths work in local and production builds.
+
+## Buildable source and dependency modernization
+
+On 24 October 2026 the recovered application was reconstructed as readable source in `src/Runtime.js`. Third-party bundled implementations were removed in favor of pinned package imports, and the runtime was migrated from Three.js r164 to r186 with the current GSAP release. Geometry, sounds, shaders, profile-board generation and vehicle tuning are retained. `docs/modernization.md` records baseline provenance, migration changes, tests and limitations. Original library and creator notices are included in every build by `scripts/prepare-notices.mjs`.

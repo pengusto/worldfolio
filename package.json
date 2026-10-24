@@ -1,0 +1,30 @@
+{
+  "name": "pengusto-worldfolio",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.9.8",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/source.test.mjs",
+    "test:e2e": "playwright test",
+    "check": "node --check src/Runtime.js && node --check src/profile.js",
+    "prebuild": "node scripts/prepare-notices.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "cannon": "0.6.2",
+    "dat.gui": "0.7.9",
+    "gsap": "3.15.0",
+    "howler": "2.2.4",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "vite": "8.3.5"
+  }
+}

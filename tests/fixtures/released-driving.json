@@ -1,0 +1,149 @@
+{
+  "options": {
+    "chassisWidth": 1.02,
+    "chassisHeight": 1.16,
+    "chassisDepth": 2.03,
+    "chassisOffset": {
+      "x": 0,
+      "y": 0,
+      "z": 0.41
+    },
+    "chassisMass": 40,
+    "wheelFrontOffsetDepth": 0.635,
+    "wheelBackOffsetDepth": -0.475,
+    "wheelOffsetWidth": 0.39,
+    "wheelRadius": 0.25,
+    "wheelHeight": 0.24,
+    "wheelSuspensionStiffness": 50,
+    "wheelSuspensionRestLength": 0.1,
+    "wheelFrictionSlip": 10,
+    "wheelDampingRelaxation": 1.8,
+    "wheelDampingCompression": 1.5,
+    "wheelMaxSuspensionForce": 100000,
+    "wheelRollInfluence": 0.01,
+    "wheelMaxSuspensionTravel": 0.3,
+    "wheelCustomSlidingRotationalSpeed": -30,
+    "wheelMass": 5,
+    "controlsSteeringSpeed": 0.015,
+    "controlsSteeringMax": 0.5340707511102649,
+    "controlsSteeringQuad": false,
+    "controlsAcceleratinMaxSpeed": 0.009705882352941177,
+    "controlsAcceleratinMaxSpeedBoost": 0.019411764705882354,
+    "controlsAcceleratingSpeed": 16,
+    "controlsAcceleratingSpeedBoost": 28,
+    "controlsAcceleratingQuad": true,
+    "controlsBrakeStrength": 1.35
+  },
+  "gravity": [
+    0,
+    0,
+    -13
+  ],
+  "trajectory": [
+    {
+      "name": "accelerate",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "steering": 0,
+      "speed": 0
+    },
+    {
+      "name": "left turn",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "steering": -0.5340707511102649,
+      "speed": 0
+    },
+    {
+      "name": "brake",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "steering": 0,
+      "speed": 0
+    },
+    {
+      "name": "reverse",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "steering": 0,
+      "speed": 0
+    },
+    {
+      "name": "boost",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "quaternion": [
+        0,
+        0,
+        -0.7071067811865475,
+        0.7071067811865476
+      ],
+      "steering": 0,
+      "speed": 0
+    }
+  ]
+}

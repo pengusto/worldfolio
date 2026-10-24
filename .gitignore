@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.scratch/
+playwright-report/
+test-results/
+.env*
+.DS_Store
+public/licenses/
+public/LICENSE.md
+public/SOURCE.md
