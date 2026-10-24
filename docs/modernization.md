@@ -61,3 +61,5 @@ Lesson: when upgrading a recovered compiled site, establish a working source reb
 ## Local result
 
 The complete local run passed on 24 October 2026: JavaScript syntax checks, production build, all three source/asset tests, all four browser tests, the two released screenshot comparisons and the fixed-step driving fixture. The final browser suite took 42 seconds. The touch case includes a first tap without a mouse hover and actual held touch input. No missing resources, page/console errors or external resource requests were observed. The desktop reference and mobile screenshot were visually reviewed. The production bundle retains Vite's size warning (about 1.23 MB before gzip); no performance improvement is claimed by the version update.
+
+The additional [feature-branch CI run](https://github.com/pengusto/worldfolio/actions/runs/40049511512) passed on Ubuntu with Node 24 before publication; the deploy job correctly stayed skipped on the feature branch. A separate local static-server check under `/worldfolio/` confirmed Three.js revision 186, real driving, no missing assets, no page errors and no external requests.
